@@ -63,7 +63,7 @@
 			$.get("get.php",{'com':expressid, 'nu':expressno, 'captcha':captcha},
 				function(data) {
 					$("#retData").html(data);
-					showSearchHistory(expressid);
+					showSearchHistory(expressid); // 查询单号立即显示历史
 				}
 			);
 			
